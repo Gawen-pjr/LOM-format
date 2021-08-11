@@ -4,7 +4,7 @@
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
       <title>
-         Documentation for JSON Schema Property children
+         Documentation for JSON Schema Property style
          in 
       </title>
       <!-- saved from url=(0014)about:internet -->
@@ -13,7 +13,7 @@
          <!--
                             $(function () {
                                 // ensure the page opens within its frameset
-                                ensureInFrame('Property', 'property-children');
+                                ensureInFrame('Property', 'property-style');
                             });
                         --></script></head>
    <body>
@@ -22,19 +22,9 @@
             <div class="row">
                <div class="col-md-12">
                   <h1>
-                     JSON Schema Property 'children'
+                     JSON Schema Property 'style'
                      
                   </h1>
-               </div>
-            </div>
-         </div>
-         <div class="property-row">
-            <div class="row is-flex">
-               <div class="col-md-2 property-heading" tooltip="A description explaining the purpose of the instance described by this schema.">
-                  <h3>Description</h3>
-               </div>
-               <div class="col-md-10">
-                  <div class="valign-center">List of children zones of this zone</div>
                </div>
             </div>
          </div>
@@ -44,15 +34,7 @@
                   <h3>Diagram</h3>
                </div>
                <div class="col-md-10">
-                  <div class="valign-center"><map name="DiagramMap" id="DiagramMap">
-                        <area shape="rect" coords="309,168,540,190" href="def-zone.html" alt="Drilldown into /$defs/Zone"></area>
-                        <area shape="rect" coords="564,289,850,302" href="def-zone.html" alt="Drilldown into /$defs/Zone"></area>
-                        <area shape="rect" coords="600,239,823,264" href="def-zone.html" alt="Drilldown into /$defs/Zone"></area>
-                        <area shape="rect" coords="600,207,742,232" href="property-style.html" alt="Drilldown into /$defs/Zone/properties/style"></area>
-                        <area shape="rect" coords="600,175,786,200" href="def-path.html" alt="Drilldown into /$defs/Path"></area>
-                        <area shape="rect" coords="600,111,804,136" href="def-bounds.html" alt="Drilldown into /$defs/Bounds"></area>
-                        <area shape="rect" coords="580,54,833,276" href="def-zone.html" alt="Drilldown into /$defs/Zone"></area>
-                        <area shape="rect" coords="560,28,854,307" href="def-zone.html" alt="Drilldown into /$defs/Zone"></area></map><img src="images/property-children.png" border="0" alt="JSON Schema Diagram of /$defs/Zone/properties/children" usemap="#DiagramMap"></img></div>
+                  <div class="valign-center"><map name="DiagramMap" id="DiagramMap"></map><img src="images/property-style.png" border="0" alt="JSON Schema Diagram of /$defs/Zone/properties/style" usemap="#DiagramMap"></img></div>
                </div>
             </div>
          </div>
@@ -64,38 +46,43 @@
                <div class="col-md-10">
                   <div class="row value-type-row is-flex">
                      <div class="col-md-2">
-                        <h4>Array</h4>
+                        <h4>Object</h4>
                      </div>
                      <div class="col-md-10">
                         <div class="valign-center">
                            <div class="row">
                               <div class="col-md-12">
+                                 <h4>Properties</h4>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-12">
                                  <table class="table table-bordered">
                                     <thead>
                                        <tr>
-                                          <th class="col-md-3" tooltip="The index of value in the array (1 based)">Array Index</th>
+                                          <th class="col-md-3" tooltip="The name of the property, as it appears in the JSON instance document">Property Name</th>
                                           <th class="col-md-2" tooltip="The data types that this property can contain within the JSON instance document">Type</th>
                                           <th class="col-md-7" tooltip="A description of the property including validation rules">Description</th>
                                        </tr>
                                     </thead>
                                     <tr>
-                                       <td tooltip="Example {  : ... }">1-n
+                                       <td tooltip="Example { background : ... }">background</td>
+                                       <td>string</td>
+                                       <td>
+                                          A String value
                                           
                                        </td>
-                                       <td>object</td>
-                                       <td><a href="def-zone.html" title="/$defs/Zone">Zone
-                                             (lom.schema.json)
-                                             </a></td>
+                                    </tr>
+                                    <tr>
+                                       <td tooltip="Example { border : ... }">border</td>
+                                       <td>string</td>
+                                       <td>
+                                          A String value
+                                          
+                                       </td>
                                     </tr>
                                  </table>
                               </div>
-                           </div>
-                           <div class="row">
-                              <div class="col-md-5">
-                                 Minimum Items
-                                 
-                              </div>
-                              <div class="col-md-7"><i>1</i></div>
                            </div>
                         </div>
                      </div>
@@ -109,14 +96,18 @@
                   <h3>Source</h3>
                </div>
                <div class="col-md-10">
-                  <div class="valign-center"><pre class="json">"children": {
-    "type": "array",
-    "description": "List of children zones of this zone",
-    "minItems": 1,
-    "items": {
-        "$ref": "#/$defs/Zone"
+                  <div class="valign-center"><pre class="json">"style": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "background": {
+            "type": "string"
+        },
+        "border": {
+            "type": "string"
+        }
     }
-}</pre><div><i>C:\Users\pilou\Workspaces\IntelliJ-IDEA\UX-Key\LOM-format\lom.schema.json (82:18)
+}</pre><div><i>C:\Users\pilou\Workspaces\IntelliJ-IDEA\UX-Key\LOM-format\lom.schema.json (93:18)
                            </i></div>
                   </div>
                </div>
@@ -131,6 +122,12 @@
                   <div class="valign-center">
                      <ul>
                         <li><a href="def-zone.html" title="/$defs/Zone">/$defs/Zone
+                              (lom.schema.json)
+                              </a></li>
+                        <li><a href="property-children.html" title="/$defs/Zone/properties/children">/$defs/Zone/properties/children
+                              (lom.schema.json)
+                              </a></li>
+                        <li><a href="schema-1.html" title="/$defs/Zone/properties/style/additionalProperties">/$defs/Zone/properties/style/additionalProperties
                               (lom.schema.json)
                               </a></li>
                      </ul>

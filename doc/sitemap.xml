@@ -48,7 +48,19 @@
       <priority>0.5</priority>
    </url>
    <url>
+      <loc>http://schema.liquid-technologies.com/LibraryDocs/property-style.html</loc>
+      <lastmod>2021-08-11+02:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
       <loc>http://schema.liquid-technologies.com/LibraryDocs/schema-1.html</loc>
+      <lastmod>2021-08-11+02:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>http://schema.liquid-technologies.com/LibraryDocs/schema-2.html</loc>
       <lastmod>2021-08-11+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -60,7 +72,7 @@
       <priority>0.5</priority>
    </url>
    <url>
-      <loc>http://schema.liquid-technologies.com/LibraryDocs/schema-2.html</loc>
+      <loc>http://schema.liquid-technologies.com/LibraryDocs/schema-3.html</loc>
       <lastmod>2021-08-11+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>

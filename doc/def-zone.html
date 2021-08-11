@@ -45,6 +45,7 @@
                </div>
                <div class="col-md-10">
                   <div class="valign-center"><map name="DiagramMap" id="DiagramMap">
+                        <area shape="rect" coords="282,278,424,303" href="property-style.html" alt="Drilldown into /$defs/Zone/properties/style"></area>
                         <area shape="rect" coords="286,253,534,266" href="def-path.html" alt="Drilldown into /$defs/Path"></area>
                         <area shape="rect" coords="286,240,534,253" href="def-path.html" alt="Drilldown into /$defs/Path"></area>
                         <area shape="rect" coords="282,211,538,271" href="def-path.html" alt="Drilldown into /$defs/Path"></area>
@@ -115,6 +116,13 @@
                                              (lom.schema.json)
                                              </a></td>
                                     </tr>
+                                    <tr>
+                                       <td tooltip="Example { style : ... }">style</td>
+                                       <td>object</td>
+                                       <td><a href="property-style.html" title="/$defs/Zone/properties/style">style
+                                             (lom.schema.json)
+                                             </a></td>
+                                    </tr>
                                     <thead>
                                        <tr>
                                           <th class="col-md-3" tooltip="Any property not matched by the properties described above, must comply with the rules below.">Additional Properties</th>
@@ -172,6 +180,18 @@
         },
         "link": {
             "$ref": "#/$defs/Path"
+        },
+        "style": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "background": {
+                    "type": "string"
+                },
+                "border": {
+                    "type": "string"
+                }
+            }
         }
     },
     "required": [
@@ -200,7 +220,7 @@
                         <li><a href="property-loms.html" title="/properties/loms">/properties/loms
                               (lom.schema.json)
                               </a></li>
-                        <li><a href="schema-2.html" title="/properties/loms/additionalProperties">/properties/loms/additionalProperties
+                        <li><a href="schema-3.html" title="/properties/loms/additionalProperties">/properties/loms/additionalProperties
                               (lom.schema.json)
                               </a></li>
                      </ul>
