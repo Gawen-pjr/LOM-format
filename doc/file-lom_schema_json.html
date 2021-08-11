@@ -1,0 +1,360 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:lt="http://www.liquid-technologies.com/json-schema-doc-gen" xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+      <title>
+         Documentation for JSON Schema File 
+         in 
+      </title>
+      <!-- saved from url=(0014)about:internet -->
+      <link href="Content/bootstrap.min.css" rel="stylesheet"></link>
+      <link href="Content/JsonSchemaDocs.css" rel="stylesheet"></link><script src="Scripts/jquery-3.1.1.min.js" type="text/javascript"></script><script src="Scripts/bootstrap.min.js" type="text/javascript"></script><script src="Scripts/JsonSchemaDocs.js" type="text/javascript"></script><script type="text/javascript">
+         <!--
+                            $(function () {
+                                // ensure the page opens within its frameset
+                                ensureInFrame('SchemaFile', 'file-lom_schema_json');
+                            });
+                        --></script></head>
+   <body>
+      <div class="container">
+         <div class="heading-row">
+            <div class="row">
+               <div class="col-md-12">
+                  <h1>
+                     JSON Schema File 
+                  </h1>
+               </div>
+            </div>
+         </div>
+         <div class="property-row">
+            <div class="row is-flex">
+               <div class="col-md-2 property-heading" tooltip="Changes the URI resolution scope">
+                  <h3>ID</h3>
+               </div>
+               <div class="col-md-10">
+                  <div class="valign-center">https://example.com/schema/lom.schema.json</div>
+               </div>
+            </div>
+         </div>
+         <div class="property-row">
+            <div class="row is-flex">
+               <div class="col-md-2 property-heading" tooltip="A short description of the instance described by this schema.">
+                  <h3>
+                     Title
+                     
+                  </h3>
+               </div>
+               <div class="col-md-10">
+                  <div class="valign-center">LOM</div>
+               </div>
+            </div>
+         </div>
+         <div class="property-row">
+            <div class="row is-flex">
+               <div class="col-md-2 property-heading" tooltip="A description explaining the purpose of the instance described by this schema.">
+                  <h3>Description</h3>
+               </div>
+               <div class="col-md-10">
+                  <div class="valign-center">Specification of the wireframe of a single Web page</div>
+               </div>
+            </div>
+         </div>
+         <div class="property-row">
+            <div class="row is-flex">
+               <div class="col-md-2 property-heading" tooltip="A graphical representation of the JSON schema item.">
+                  <h3>Diagram</h3>
+               </div>
+               <div class="col-md-10">
+                  <div class="valign-center"><map name="DiagramMap" id="DiagramMap">
+                        <area shape="rect" coords="309,587,537,609" href="def-zone.html" alt="Drilldown into /$defs/Zone"></area>
+                        <area shape="rect" coords="305,558,541,614" href="def-zone.html" alt="Drilldown into /$defs/Zone"></area>
+                        <area shape="rect" coords="309,524,547,546" href="def-bounds.html" alt="Drilldown into /$defs/Bounds"></area>
+                        <area shape="rect" coords="305,495,551,551" href="def-bounds.html" alt="Drilldown into /$defs/Bounds"></area>
+                        <area shape="rect" coords="309,470,562,483" href="def-path.html" alt="Drilldown into /$defs/Path"></area>
+                        <area shape="rect" coords="309,457,562,470" href="def-path.html" alt="Drilldown into /$defs/Path"></area>
+                        <area shape="rect" coords="305,428,566,488" href="def-path.html" alt="Drilldown into /$defs/Path"></area>
+                        <area shape="rect" coords="309,394,558,416" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
+                        <area shape="rect" coords="309,381,558,394" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
+                        <area shape="rect" coords="305,352,562,421" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
+                        <area shape="rect" coords="305,251,447,276" href="property-loms.html" alt="Drilldown into /properties/loms"></area>
+                        <area shape="rect" coords="309,217,560,239" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
+                        <area shape="rect" coords="309,204,560,217" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
+                        <area shape="rect" coords="305,175,564,244" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
+                        <area shape="rect" coords="309,141,560,163" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
+                        <area shape="rect" coords="309,128,560,141" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
+                        <area shape="rect" coords="305,99,564,168" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
+                        <area shape="rect" coords="309,74,557,87" href="def-path.html" alt="Drilldown into /$defs/Path"></area>
+                        <area shape="rect" coords="309,61,557,74" href="def-path.html" alt="Drilldown into /$defs/Path"></area>
+                        <area shape="rect" coords="305,32,561,92" href="def-path.html" alt="Drilldown into /$defs/Path"></area></map><img src="images/file-lom_schema_json.png" border="0" alt="JSON Schema Diagram of /" usemap="#DiagramMap"></img></div>
+               </div>
+            </div>
+         </div>
+         <div class="property-row">
+            <div class="row">
+               <div class="col-md-2 property-heading" tooltip="Describes what the JSON instance value can contain.">
+                  <h3>Value</h3>
+               </div>
+               <div class="col-md-10">
+                  <div class="row value-type-row is-flex">
+                     <div class="col-md-2">
+                        <h4>Object</h4>
+                     </div>
+                     <div class="col-md-10">
+                        <div class="valign-center">
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <h4>Properties</h4>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-12">
+                                 <table class="table table-bordered">
+                                    <thead>
+                                       <tr>
+                                          <th class="col-md-3" tooltip="The name of the property, as it appears in the JSON instance document">Property Name</th>
+                                          <th class="col-md-2" tooltip="The data types that this property can contain within the JSON instance document">Type</th>
+                                          <th class="col-md-7" tooltip="A description of the property including validation rules">Description</th>
+                                       </tr>
+                                    </thead>
+                                    <tr>
+                                       <td tooltip="Example { rootPath : ... }">rootPath</td>
+                                       <td>string</td>
+                                       <td><a href="def-path.html" title="/$defs/Path">Path
+                                             (lom.schema.json)
+                                             </a></td>
+                                    </tr>
+                                    <tr>
+                                       <td tooltip="Example { pageWidth : ... }">pageWidth</td>
+                                       <td>number</td>
+                                       <td><a href="def-dimension.html" title="/$defs/Dimension">Dimension
+                                             (lom.schema.json)
+                                             </a></td>
+                                    </tr>
+                                    <tr>
+                                       <td tooltip="Example { pageHeight : ... }">pageHeight</td>
+                                       <td>number</td>
+                                       <td><a href="def-dimension.html" title="/$defs/Dimension">Dimension
+                                             (lom.schema.json)
+                                             </a></td>
+                                    </tr>
+                                    <tr>
+                                       <td tooltip="Example { loms : ... }">loms</td>
+                                       <td>object</td>
+                                       <td><a href="property-loms.html" title="/properties/loms">loms
+                                             (lom.schema.json)
+                                             </a></td>
+                                    </tr>
+                                    <thead>
+                                       <tr>
+                                          <th class="col-md-3" tooltip="Any property not matched by the properties described above, must comply with the rules below.">Additional Properties</th>
+                                          <th class="col-md-2" tooltip="The data types that this property can contain within the JSON instance document">Type</th>
+                                          <th class="col-md-7" tooltip="A description of the property including validation rules">Description</th>
+                                       </tr>
+                                    </thead>
+                                    <tr>
+                                       <td tooltip="The property can have any name">
+                                          Any Property
+                                          
+                                       </td>
+                                       <td tooltip="The property can have any type">
+                                          Any
+                                          
+                                       </td>
+                                       <td>
+                                          All values are valid, no restrictions.
+                                          
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="property-row">
+            <div class="row">
+               <div class="col-md-2 property-heading" tooltip="Reusable schema definitions that can be referenced in other parts of the document.">
+                  <h3>Definitions</h3>
+               </div>
+               <div class="col-md-6">
+                  <table class="table">
+                     <thead>
+                        <tr>
+                           <th tooltip="The name of the schema definition">Name</th>
+                           <th tooltip="The types allowed within the definition">Type</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td><strong tooltip="Reference using '#/definitions/Dimension'"><a href="def-dimension.html" title="/$defs/Dimension">Dimension
+                                    (lom.schema.json)
+                                    </a></strong></td>
+                           <td>number</td>
+                        </tr>
+                        <tr>
+                           <td><strong tooltip="Reference using '#/definitions/Path'"><a href="def-path.html" title="/$defs/Path">Path
+                                    (lom.schema.json)
+                                    </a></strong></td>
+                           <td>string</td>
+                        </tr>
+                        <tr>
+                           <td><strong tooltip="Reference using '#/definitions/Bounds'"><a href="def-bounds.html" title="/$defs/Bounds">Bounds
+                                    (lom.schema.json)
+                                    </a></strong></td>
+                           <td>object</td>
+                        </tr>
+                        <tr>
+                           <td><strong tooltip="Reference using '#/definitions/Zone'"><a href="def-zone.html" title="/$defs/Zone">Zone
+                                    (lom.schema.json)
+                                    </a></strong></td>
+                           <td>object</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </div>
+         <div class="property-row">
+            <div class="row is-flex">
+               <div class="col-md-2 property-heading" tooltip="The source code for this JSON Schema item.">
+                  <h3>Source</h3>
+               </div>
+               <div class="col-md-10">
+                  <div class="valign-center"><pre class="json">{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "https://example.com/schema/lom.schema.json",
+    "type": "object",
+    "title": "LOM",
+    "description": "Specification of the wireframe of a single Web page",
+    "additionalProperties": true,
+    "properties": {
+        "rootPath": {
+            "$ref": "#/$defs/Path"
+        },
+        "pageWidth": {
+            "$ref": "#/$defs/Dimension"
+        },
+        "pageHeight": {
+            "$ref": "#/$defs/Dimension"
+        },
+        "loms": {
+            "type": "object",
+            "additionalProperties": false,
+            "patternProperties": {
+                "([a-zA-Z0-9._-]+)(/[a-zA-Z0-9._-]+)*": {
+                    "$ref": "#/$defs/Zone"
+                }
+            }
+        }
+    },
+    "required": [
+        "rootPath",
+        "pageWidth",
+        "pageHeight",
+        "loms"
+    ],
+    "$defs": {
+        "Dimension": {
+            "type": "number",
+            "description": "Size of a graphical element along an axis",
+            "minimum": 0
+        },
+        "Path": {
+            "type": "string",
+            "description": "A slash separated path",
+            "pattern": "/?([a-zA-Z0-9._-]+)(/[a-zA-Z0-9._-]+)*"
+        },
+        "Bounds": {
+            "type": "object",
+            "description": "Coordinates of an axis-aligned rectangle",
+            "additionalProperties": false,
+            "properties": {
+                "x": {
+                    "type": "number",
+                    "description": "x coordinate relative to parent zone"
+                },
+                "y": {
+                    "type": "number",
+                    "description": "y coordinate relative to parent zone"
+                },
+                "width": {
+                    "$ref": "#/$defs/Dimension"
+                },
+                "height": {
+                    "$ref": "#/$defs/Dimension"
+                }
+            },
+            "required": [
+                "x",
+                "width",
+                "height",
+                "y"
+            ]
+        },
+        "Zone": {
+            "type": "object",
+            "description": "Representation of a zone on screen",
+            "properties": {
+                "zoneId": {
+                    "type": "string",
+                    "description": "Unique ID of this zone"
+                },
+                "bounds": {
+                    "$ref": "#/$defs/Bounds"
+                },
+                "children": {
+                    "type": "array",
+                    "description": "List of children zones of this zone",
+                    "minItems": 1,
+                    "items": {
+                        "$ref": "#/$defs/Zone"
+                    }
+                },
+                "link": {
+                    "$ref": "#/$defs/Path"
+                }
+            },
+            "required": [
+                "bounds"
+            ]
+        }
+    }
+}</pre><div><i>C:\Users\pilou\Workspaces\IntelliJ-IDEA\UX-Key\LOM-format\lom.schema.json (1:2)
+                           </i></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="property-row">
+            <div class="row is-flex">
+               <div class="col-md-2 property-heading" tooltip="All the entities that reference this schema">
+                  <h3>References</h3>
+               </div>
+               <div class="col-md-10">
+                  <div class="valign-center">
+                     <ul>
+                        <li><a href="schema-1.html" title="/additionalProperties">/additionalProperties
+                              (lom.schema.json)
+                              </a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="property-row">
+            <div class="row">
+               <div class="col-md-12">
+                  Documentation for 
+                            <br/>
+                        
+                  Generated using
+                  <a href="http://www.liquid-technologies.com/" target="_parent">Liquid Studio 2021 - Developer Bundle (Trial) 19.0.10.10866</a></div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
