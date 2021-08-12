@@ -19,7 +19,7 @@
             "type": "object",
             "additionalProperties": false,
             "patternProperties": {
-                "/?([a-zA-Z0-9._-]+)(/[a-zA-Z0-9._-]+)*": {
+                "/?(([a-zA-Z0-9._-]+)(/[a-zA-Z0-9._-]+)*)?": {
                     "$ref": "#/$defs/Zone"
                 }
             }
@@ -40,7 +40,7 @@
         "Path": {
             "type": "string",
             "description": "A slash separated path",
-            "pattern": "/?([a-zA-Z0-9._-]+)(/[a-zA-Z0-9._-]+)*"
+            "pattern": "/?(([a-zA-Z0-9._-]+)(/[a-zA-Z0-9._-]+)*)?"
         },
         "Bounds": {
             "type": "object",
