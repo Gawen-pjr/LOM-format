@@ -4,7 +4,7 @@
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
       <title>
-         Documentation for JSON Schema Definition Path
+         Documentation for JSON Schema Property events
          in 
       </title>
       <!-- saved from url=(0014)about:internet -->
@@ -13,7 +13,7 @@
          <!--
                             $(function () {
                                 // ensure the page opens within its frameset
-                                ensureInFrame('Definition', 'def-path');
+                                ensureInFrame('Property', 'property-events');
                             });
                         --></script></head>
    <body>
@@ -22,7 +22,7 @@
             <div class="row">
                <div class="col-md-12">
                   <h1>
-                     JSON Schema Definition 'Path'
+                     JSON Schema Property 'events'
                      
                   </h1>
                </div>
@@ -34,7 +34,7 @@
                   <h3>Description</h3>
                </div>
                <div class="col-md-10">
-                  <div class="valign-center">A slash separated path</div>
+                  <div class="valign-center">List of all events captured in recorded session</div>
                </div>
             </div>
          </div>
@@ -44,7 +44,16 @@
                   <h3>Diagram</h3>
                </div>
                <div class="col-md-10">
-                  <div class="valign-center"><map name="DiagramMap" id="DiagramMap"></map><img src="images/def-path.png" border="0" alt="JSON Schema Diagram of /$defs/Path" usemap="#DiagramMap"></img></div>
+                  <div class="valign-center"><map name="DiagramMap" id="DiagramMap">
+                        <area shape="rect" coords="508,559,731,584" href="def-event.html" alt="Drilldown into /$defs/Event"></area>
+                        <area shape="rect" coords="508,527,712,552" href="def-bounds.html" alt="Drilldown into /$defs/Bounds"></area>
+                        <area shape="rect" coords="508,303,675,328" href="property-metakey.html" alt="Drilldown into /$defs/Event/properties/metaKey"></area>
+                        <area shape="rect" coords="508,271,674,296" href="property-shiftkey.html" alt="Drilldown into /$defs/Event/properties/shiftKey"></area>
+                        <area shape="rect" coords="508,239,674,264" href="property-ctrlkey.html" alt="Drilldown into /$defs/Event/properties/ctrlKey"></area>
+                        <area shape="rect" coords="508,207,674,232" href="property-altkey.html" alt="Drilldown into /$defs/Event/properties/altKey"></area>
+                        <area shape="rect" coords="508,111,712,136" href="property-interactiontype.html" alt="Drilldown into /$defs/Event/properties/interactionType"></area>
+                        <area shape="rect" coords="488,54,741,596" href="def-event.html" alt="Drilldown into /$defs/Event"></area>
+                        <area shape="rect" coords="468,28,749,605" href="def-event.html" alt="Drilldown into /$defs/Event"></area></map><img src="images/property-events.png" border="0" alt="JSON Schema Diagram of /properties/events" usemap="#DiagramMap"></img></div>
                </div>
             </div>
          </div>
@@ -56,16 +65,31 @@
                <div class="col-md-10">
                   <div class="row value-type-row is-flex">
                      <div class="col-md-2">
-                        <h4>String</h4>
+                        <h4>Array</h4>
                      </div>
                      <div class="col-md-10">
                         <div class="valign-center">
                            <div class="row">
-                              <div class="col-md-5">
-                                 Regex pattern
-                                 
+                              <div class="col-md-12">
+                                 <table class="table table-bordered">
+                                    <thead>
+                                       <tr>
+                                          <th class="col-md-3" tooltip="The index of value in the array (1 based)">Array Index</th>
+                                          <th class="col-md-2" tooltip="The data types that this property can contain within the JSON instance document">Type</th>
+                                          <th class="col-md-7" tooltip="A description of the property including validation rules">Description</th>
+                                       </tr>
+                                    </thead>
+                                    <tr>
+                                       <td tooltip="Example {  : ... }">1-n
+                                          
+                                       </td>
+                                       <td>object</td>
+                                       <td><a href="def-event.html" title="/$defs/Event">Event
+                                             (lom.schema.json)
+                                             </a></td>
+                                    </tr>
+                                 </table>
                               </div>
-                              <div class="col-md-7"><i>/?(([a-zA-Z0-9._-]+)(/[a-zA-Z0-9._-]+)*)?</i></div>
                            </div>
                         </div>
                      </div>
@@ -79,11 +103,13 @@
                   <h3>Source</h3>
                </div>
                <div class="col-md-10">
-                  <div class="valign-center"><pre class="json">"Path": {
-    "type": "string",
-    "description": "A slash separated path",
-    "pattern": "/?(([a-zA-Z0-9._-]+)(/[a-zA-Z0-9._-]+)*)?"
-}</pre><div><i>C:\Users\pilou\Workspaces\IntelliJ-IDEA\UX-Key\lom-format\lom.schema.json (47:10)
+                  <div class="valign-center"><pre class="json">"events": {
+    "type": "array",
+    "description": "List of all events captured in recorded session",
+    "items": {
+        "$ref": "#/$defs/Event"
+    }
+}</pre><div><i>C:\Users\pilou\Workspaces\IntelliJ-IDEA\UX-Key\lom-format\lom.schema.json (26:10)
                            </i></div>
                   </div>
                </div>
@@ -98,12 +124,6 @@
                   <div class="valign-center">
                      <ul>
                         <li><a href="file-lom_schema_json.html" title="/">/
-                              (lom.schema.json)
-                              </a></li>
-                        <li><a href="def-zone.html" title="/$defs/Zone">/$defs/Zone
-                              (lom.schema.json)
-                              </a></li>
-                        <li><a href="property-children.html" title="/$defs/Zone/properties/children">/$defs/Zone/properties/children
                               (lom.schema.json)
                               </a></li>
                      </ul>

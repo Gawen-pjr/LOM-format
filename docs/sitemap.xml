@@ -1,79 +1,121 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>http://schema.liquid-technologies.com/LibraryDocs/index.html</loc>
-      <lastmod>2021-08-11+02:00</lastmod>
+      <lastmod>2022-02-02+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>http://schema.liquid-technologies.com/LibraryDocs/file-lom_schema_json.html</loc>
-      <lastmod>2021-08-11+02:00</lastmod>
+      <lastmod>2022-02-02+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>http://schema.liquid-technologies.com/LibraryDocs/def-bounds.html</loc>
-      <lastmod>2021-08-11+02:00</lastmod>
+      <lastmod>2022-02-02+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>http://schema.liquid-technologies.com/LibraryDocs/schema.html</loc>
-      <lastmod>2021-08-11+02:00</lastmod>
+      <lastmod>2022-02-02+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>http://schema.liquid-technologies.com/LibraryDocs/def-dimension.html</loc>
-      <lastmod>2021-08-11+02:00</lastmod>
+      <lastmod>2022-02-02+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>http://schema.liquid-technologies.com/LibraryDocs/def-event.html</loc>
+      <lastmod>2022-02-02+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>http://schema.liquid-technologies.com/LibraryDocs/property-altkey.html</loc>
+      <lastmod>2022-02-02+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>http://schema.liquid-technologies.com/LibraryDocs/property-ctrlkey.html</loc>
+      <lastmod>2022-02-02+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>http://schema.liquid-technologies.com/LibraryDocs/property-interactiontype.html</loc>
+      <lastmod>2022-02-02+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>http://schema.liquid-technologies.com/LibraryDocs/property-metakey.html</loc>
+      <lastmod>2022-02-02+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>http://schema.liquid-technologies.com/LibraryDocs/property-shiftkey.html</loc>
+      <lastmod>2022-02-02+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>http://schema.liquid-technologies.com/LibraryDocs/def-path.html</loc>
-      <lastmod>2021-08-11+02:00</lastmod>
+      <lastmod>2022-02-02+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>http://schema.liquid-technologies.com/LibraryDocs/def-zone.html</loc>
-      <lastmod>2021-08-11+02:00</lastmod>
+      <lastmod>2022-02-02+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>http://schema.liquid-technologies.com/LibraryDocs/property-children.html</loc>
-      <lastmod>2021-08-11+02:00</lastmod>
+      <lastmod>2022-02-02+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>http://schema.liquid-technologies.com/LibraryDocs/property-style.html</loc>
-      <lastmod>2021-08-11+02:00</lastmod>
+      <lastmod>2022-02-02+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>http://schema.liquid-technologies.com/LibraryDocs/schema-1.html</loc>
-      <lastmod>2021-08-11+02:00</lastmod>
+      <lastmod>2022-02-02+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>http://schema.liquid-technologies.com/LibraryDocs/schema-2.html</loc>
-      <lastmod>2021-08-11+02:00</lastmod>
+      <lastmod>2022-02-02+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
+      <loc>http://schema.liquid-technologies.com/LibraryDocs/property-events.html</loc>
+      <lastmod>2022-02-02+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>http://schema.liquid-technologies.com/LibraryDocs/property-loms.html</loc>
-      <lastmod>2021-08-11+02:00</lastmod>
+      <lastmod>2022-02-02+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
    <url>
       <loc>http://schema.liquid-technologies.com/LibraryDocs/schema-3.html</loc>
-      <lastmod>2021-08-11+02:00</lastmod>
+      <lastmod>2022-02-02+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>

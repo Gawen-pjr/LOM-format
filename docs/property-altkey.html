@@ -4,7 +4,7 @@
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
       <title>
-         Documentation for JSON Schema Definition Path
+         Documentation for JSON Schema Property altKey
          in 
       </title>
       <!-- saved from url=(0014)about:internet -->
@@ -13,7 +13,7 @@
          <!--
                             $(function () {
                                 // ensure the page opens within its frameset
-                                ensureInFrame('Definition', 'def-path');
+                                ensureInFrame('Property', 'property-altkey');
                             });
                         --></script></head>
    <body>
@@ -22,7 +22,7 @@
             <div class="row">
                <div class="col-md-12">
                   <h1>
-                     JSON Schema Definition 'Path'
+                     JSON Schema Property 'altKey'
                      
                   </h1>
                </div>
@@ -34,7 +34,7 @@
                   <h3>Description</h3>
                </div>
                <div class="col-md-10">
-                  <div class="valign-center">A slash separated path</div>
+                  <div class="valign-center">Boolean denoting if the ALT key was down when event occured</div>
                </div>
             </div>
          </div>
@@ -44,7 +44,7 @@
                   <h3>Diagram</h3>
                </div>
                <div class="col-md-10">
-                  <div class="valign-center"><map name="DiagramMap" id="DiagramMap"></map><img src="images/def-path.png" border="0" alt="JSON Schema Diagram of /$defs/Path" usemap="#DiagramMap"></img></div>
+                  <div class="valign-center"><map name="DiagramMap" id="DiagramMap"></map><img src="images/property-altkey.png" border="0" alt="JSON Schema Diagram of /$defs/Event/properties/altKey" usemap="#DiagramMap"></img></div>
                </div>
             </div>
          </div>
@@ -56,16 +56,15 @@
                <div class="col-md-10">
                   <div class="row value-type-row is-flex">
                      <div class="col-md-2">
-                        <h4>String</h4>
+                        <h4>Boolean</h4>
                      </div>
                      <div class="col-md-10">
                         <div class="valign-center">
                            <div class="row">
-                              <div class="col-md-5">
-                                 Regex pattern
+                              <div class="col-md-12">
+                                 Literal value <strong><i>true</i></strong> or <strong><i>false</i></strong>.
                                  
                               </div>
-                              <div class="col-md-7"><i>/?(([a-zA-Z0-9._-]+)(/[a-zA-Z0-9._-]+)*)?</i></div>
                            </div>
                         </div>
                      </div>
@@ -75,15 +74,25 @@
          </div>
          <div class="property-row">
             <div class="row is-flex">
+               <div class="col-md-2 property-heading" tooltip="Specifies a default JSON value.">
+                  <h3>Default</h3>
+               </div>
+               <div class="col-md-10">
+                  <div class="valign-center"><pre class="json">false</pre></div>
+               </div>
+            </div>
+         </div>
+         <div class="property-row">
+            <div class="row is-flex">
                <div class="col-md-2 property-heading" tooltip="The source code for this JSON Schema item.">
                   <h3>Source</h3>
                </div>
                <div class="col-md-10">
-                  <div class="valign-center"><pre class="json">"Path": {
-    "type": "string",
-    "description": "A slash separated path",
-    "pattern": "/?(([a-zA-Z0-9._-]+)(/[a-zA-Z0-9._-]+)*)?"
-}</pre><div><i>C:\Users\pilou\Workspaces\IntelliJ-IDEA\UX-Key\lom-format\lom.schema.json (47:10)
+                  <div class="valign-center"><pre class="json">"altKey": {
+    "type": "boolean",
+    "description": "Boolean denoting if the ALT key was down when event occured",
+    "default": false
+}</pre><div><i>C:\Users\pilou\Workspaces\IntelliJ-IDEA\UX-Key\lom-format\lom.schema.json (141:18)
                            </i></div>
                   </div>
                </div>
@@ -97,13 +106,10 @@
                <div class="col-md-10">
                   <div class="valign-center">
                      <ul>
-                        <li><a href="file-lom_schema_json.html" title="/">/
+                        <li><a href="def-event.html" title="/$defs/Event">/$defs/Event
                               (lom.schema.json)
                               </a></li>
-                        <li><a href="def-zone.html" title="/$defs/Zone">/$defs/Zone
-                              (lom.schema.json)
-                              </a></li>
-                        <li><a href="property-children.html" title="/$defs/Zone/properties/children">/$defs/Zone/properties/children
+                        <li><a href="property-events.html" title="/properties/events">/properties/events
                               (lom.schema.json)
                               </a></li>
                      </ul>

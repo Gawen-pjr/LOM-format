@@ -67,16 +67,19 @@
                </div>
                <div class="col-md-10">
                   <div class="valign-center"><map name="DiagramMap" id="DiagramMap">
-                        <area shape="rect" coords="309,587,537,609" href="def-zone.html" alt="Drilldown into /$defs/Zone"></area>
-                        <area shape="rect" coords="305,558,541,614" href="def-zone.html" alt="Drilldown into /$defs/Zone"></area>
-                        <area shape="rect" coords="309,524,547,546" href="def-bounds.html" alt="Drilldown into /$defs/Bounds"></area>
-                        <area shape="rect" coords="305,495,551,551" href="def-bounds.html" alt="Drilldown into /$defs/Bounds"></area>
-                        <area shape="rect" coords="309,470,562,483" href="def-path.html" alt="Drilldown into /$defs/Path"></area>
-                        <area shape="rect" coords="309,457,562,470" href="def-path.html" alt="Drilldown into /$defs/Path"></area>
-                        <area shape="rect" coords="305,428,566,488" href="def-path.html" alt="Drilldown into /$defs/Path"></area>
-                        <area shape="rect" coords="309,394,558,416" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
-                        <area shape="rect" coords="309,381,558,394" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
-                        <area shape="rect" coords="305,352,562,421" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
+                        <area shape="rect" coords="305,684,447,709" href="def-event.html" alt="Drilldown into /$defs/Event"></area>
+                        <area shape="rect" coords="309,650,537,672" href="def-zone.html" alt="Drilldown into /$defs/Zone"></area>
+                        <area shape="rect" coords="305,621,541,677" href="def-zone.html" alt="Drilldown into /$defs/Zone"></area>
+                        <area shape="rect" coords="309,587,547,609" href="def-bounds.html" alt="Drilldown into /$defs/Bounds"></area>
+                        <area shape="rect" coords="305,558,551,614" href="def-bounds.html" alt="Drilldown into /$defs/Bounds"></area>
+                        <area shape="rect" coords="309,533,557,546" href="def-path.html" alt="Drilldown into /$defs/Path"></area>
+                        <area shape="rect" coords="309,520,557,533" href="def-path.html" alt="Drilldown into /$defs/Path"></area>
+                        <area shape="rect" coords="305,491,561,551" href="def-path.html" alt="Drilldown into /$defs/Path"></area>
+                        <area shape="rect" coords="309,457,558,479" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
+                        <area shape="rect" coords="309,444,558,457" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
+                        <area shape="rect" coords="305,415,562,484" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
+                        <area shape="rect" coords="309,312,538,334" href="property-events.html" alt="Drilldown into /properties/events"></area>
+                        <area shape="rect" coords="305,283,542,339" href="property-events.html" alt="Drilldown into /properties/events"></area>
                         <area shape="rect" coords="305,251,447,276" href="property-loms.html" alt="Drilldown into /properties/loms"></area>
                         <area shape="rect" coords="309,217,560,239" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
                         <area shape="rect" coords="309,204,560,217" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
@@ -84,9 +87,9 @@
                         <area shape="rect" coords="309,141,560,163" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
                         <area shape="rect" coords="309,128,560,141" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
                         <area shape="rect" coords="305,99,564,168" href="def-dimension.html" alt="Drilldown into /$defs/Dimension"></area>
-                        <area shape="rect" coords="309,74,557,87" href="def-path.html" alt="Drilldown into /$defs/Path"></area>
-                        <area shape="rect" coords="309,61,557,74" href="def-path.html" alt="Drilldown into /$defs/Path"></area>
-                        <area shape="rect" coords="305,32,561,92" href="def-path.html" alt="Drilldown into /$defs/Path"></area></map><img src="images/file-lom_schema_json.png" border="0" alt="JSON Schema Diagram of /" usemap="#DiagramMap"></img></div>
+                        <area shape="rect" coords="309,74,560,87" href="def-path.html" alt="Drilldown into /$defs/Path"></area>
+                        <area shape="rect" coords="309,61,560,74" href="def-path.html" alt="Drilldown into /$defs/Path"></area>
+                        <area shape="rect" coords="305,32,564,92" href="def-path.html" alt="Drilldown into /$defs/Path"></area></map><img src="images/file-lom_schema_json.png" border="0" alt="JSON Schema Diagram of /" usemap="#DiagramMap"></img></div>
                </div>
             </div>
          </div>
@@ -142,6 +145,13 @@
                                        <td tooltip="Example { loms : ... }">loms</td>
                                        <td>object</td>
                                        <td><a href="property-loms.html" title="/properties/loms">loms
+                                             (lom.schema.json)
+                                             </a></td>
+                                    </tr>
+                                    <tr>
+                                       <td tooltip="Example { events : ... }">events</td>
+                                       <td>array</td>
+                                       <td><a href="property-events.html" title="/properties/events">events
                                              (lom.schema.json)
                                              </a></td>
                                     </tr>
@@ -213,6 +223,12 @@
                                     </a></strong></td>
                            <td>object</td>
                         </tr>
+                        <tr>
+                           <td><strong tooltip="Reference using '#/definitions/Event'"><a href="def-event.html" title="/$defs/Event">Event
+                                    (lom.schema.json)
+                                    </a></strong></td>
+                           <td>object</td>
+                        </tr>
                      </tbody>
                   </table>
                </div>
@@ -245,9 +261,16 @@
             "type": "object",
             "additionalProperties": false,
             "patternProperties": {
-                "([a-zA-Z0-9._-]+)(/[a-zA-Z0-9._-]+)*": {
+                "/?(([a-zA-Z0-9._-]+)(/[a-zA-Z0-9._-]+)*)?": {
                     "$ref": "#/$defs/Zone"
                 }
+            }
+        },
+        "events": {
+            "type": "array",
+            "description": "List of all events captured in recorded session",
+            "items": {
+                "$ref": "#/$defs/Event"
             }
         }
     },
@@ -255,7 +278,8 @@
         "rootPath",
         "pageWidth",
         "pageHeight",
-        "loms"
+        "loms",
+        "events"
     ],
     "$defs": {
         "Dimension": {
@@ -266,7 +290,7 @@
         "Path": {
             "type": "string",
             "description": "A slash separated path",
-            "pattern": "/?([a-zA-Z0-9._-]+)(/[a-zA-Z0-9._-]+)*"
+            "pattern": "/?(([a-zA-Z0-9._-]+)(/[a-zA-Z0-9._-]+)*)?"
         },
         "Bounds": {
             "type": "object",
@@ -333,9 +357,88 @@
             "required": [
                 "bounds"
             ]
+        },
+        "Event": {
+            "type": "object",
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "description": "Type of the JS event captured"
+                },
+                "interactionType": {
+                    "type": "string",
+                    "description": "Type of interaction this event denotes",
+                    "enum": [
+                        "exploration",
+                        "action"
+                    ]
+                },
+                "timeStamp": {
+                    "type": "number",
+                    "description": "Time (in milliseconds) at which the event occured"
+                },
+                "isTrusted": {
+                    "type": "boolean",
+                    "description": "True when the event was generated by a user action, false otherwise"
+                },
+                "altKey": {
+                    "type": "boolean",
+                    "description": "Boolean denoting if the ALT key was down when event occured",
+                    "default": false
+                },
+                "ctrlKey": {
+                    "type": "boolean",
+                    "description": "Boolean denoting if the CTRL key was down when event occured",
+                    "default": false
+                },
+                "shiftKey": {
+                    "type": "boolean",
+                    "description": "Boolean denoting if the SHIFT key was down when event occured",
+                    "default": false
+                },
+                "metaKey": {
+                    "type": "boolean",
+                    "description": "Boolean denoting if the META key was down when event occured",
+                    "default": false
+                },
+                "mouseButton": {
+                    "type": "number",
+                    "description": "Which button was pressed on the mouse to trigger the event"
+                },
+                "mouseButtons": {
+                    "type": "number",
+                    "description": "Which button were down on the mouse when the event occured"
+                },
+                "pageX": {
+                    "type": "number",
+                    "description": "Vertical coordinate within the application's viewport at which the event occurred"
+                },
+                "pageY": {
+                    "type": "number",
+                    "description": "Boolean denoting if the SHIFT key was down when event occured"
+                },
+                "lomId": {
+                    "type": "string",
+                    "description": "ID of the LOM in which the event occured"
+                },
+                "zoneId": {
+                    "type": "string",
+                    "description": "ID of the LOM zone in which the event occured"
+                },
+                "viewport": {
+                    "$ref": "#/$defs/Bounds",
+                    "description": "Visible zone of the document body when event occured"
+                }
+            },
+            "required": [
+                "type",
+                "interactionType",
+                "timeStamp",
+                "isTrusted"
+            ]
         }
     }
-}</pre><div><i>C:\Users\pilou\Workspaces\IntelliJ-IDEA\UX-Key\LOM-format\lom.schema.json (1:2)
+}</pre><div><i>C:\Users\pilou\Workspaces\IntelliJ-IDEA\UX-Key\lom-format\lom.schema.json (1:2)
                            </i></div>
                   </div>
                </div>
@@ -364,7 +467,7 @@
                             <br/>
                         
                   Generated using
-                  <a href="http://www.liquid-technologies.com/" target="_parent">Liquid Studio 2021 - Developer Bundle (Trial) 19.0.10.10866</a></div>
+                  <a href="http://www.liquid-technologies.com/" target="_parent">Liquid Studio 2021 - Developer Bundle (Trial) 19.0.14.11049</a></div>
             </div>
          </div>
       </div>
